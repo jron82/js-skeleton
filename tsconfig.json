@@ -1,0 +1,16 @@
+{
+  "include": ["src/*.ts"],
+
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2018", "esnext.asynciterable"]
+  }
+}
